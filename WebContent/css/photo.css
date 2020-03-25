@@ -1,1 +1,30 @@
-@charset "EUC-KR";
+body{
+	position:relative;ss
+	overflow: hidden;	
+	margin:30px;
+}
+ul,footer,.center{
+	border:1px solid gray;
+}
+li{
+    float:right;
+    margin:0px 30px;
+}
+.top{
+	text-align: center; 
+}
+s
+.center{
+	margin:30px 0px;
+	margin-bottom:30px;
+}
+
+.image1,.image2{
+	border:1px solid gray;
+	margin:30px;
+}
+
+footer{
+	margin-top:30px;
+	clear:both;
+}

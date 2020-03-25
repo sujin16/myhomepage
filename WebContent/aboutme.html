@@ -1,38 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8"/>
+	<title>sujin page</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/aboutme.css">
+	
 </head>
 <body>
-    <nav>
-		<ul>
-			<li><input type="button" value="home" onclick="location.href='index.html'"/></li>
-			<li><input type="button" value="introduce" onclick="location.href='aboutme.html'"/></li>
-			<li><input type="button" value="image" onclick="location.href='image.html'"/></li>
-			<li><input type="button" value="time" onclick="location.href='aboutme.html'"/></li>
+	<nav>
+		<ul class="nav justify-content-end" style="margin-bottom:20px;">
+			<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="aboutme.html">AboutMe</a></li>
+			<li class="nav-item"><a class="nav-link" href="photo.html">Photo</a></li>
+			<li class="nav-item"><a class="nav-link" href="http://localhost:8081/myhomepage/today">Time</a></li>
 		</ul>
 	</nav>
 	<section class="center">
-		<div class="first">
-            <h2>이런 것을 잘해요</h2>
-            <h6></h6>
-        </div>
-        <div class="second">
-            <h2>이런 것을 잘해요</h2>
-            <h6></h6>
-        </div>
-        <div class="third">
-            <h2>이런 것을 잘해요</h2>
-            <h6></h6>
-        </div>
+		<div class="advantages">
+			<h2>My Advantages</h2>
+			<h4>HelloUniversity hello Major joyhello.</h4>
+		</div>
+		<div class="portfolio">
+			<h2>Special Portfolio.</h2>
+			<h4>HelloUniversity hello Major joyhello.</h4>
+		</div>
+		<div class="project">
+			<h2>Recent Project</h2>
+			<h4>HelloUniversity hello Major joyhello.</h4>
+		</div>
 	</section>
 	<footer>
-		<h3>tnwls9712@naver.com</h3>
-		<h3>hwang su jin</h3>
+		<div class="card text-center">
+			<div class="card-header">hello1234@naver.com</div>
+			<div class="card-body">
+				<p>github link는 아래를 클리하면 나타납니다.</p>
+				<a href="https://github.com/sujin16/myhomepage" class="btn btn-primary">Git hub Link</a>
+			</div>
+			<div class="card-footer text-muted">2 days ago</div>
+		</div>
 	</footer>
-
-    
 </body>
 </html>

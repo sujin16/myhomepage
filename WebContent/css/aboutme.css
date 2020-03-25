@@ -1,1 +1,23 @@
-@charset "EUC-KR";
+body{
+	position:relative;ss
+	overflow: hidden;	
+	margin:30px;
+}
+ul,footer,.center{
+	border:1px solid gray;
+}
+li{
+    float:right;
+    margin:0px 30px;
+}
+
+center{
+	margin:30px 0px;
+}
+.advantages,.portfolio,.project{
+	margin:30px 50px;
+}
+
+footer{
+	margin-top:30px;
+}
